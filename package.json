@@ -1,0 +1,5 @@
+{
+  "name":"fittrack-gym-management","private":true,"version":"1.0.0","workspaces":["apps/web","server"],
+  "scripts":{"dev":"concurrently \"npm run dev -w server\" \"npm run dev -w apps/web\"","build":"npm run build -w apps/web","start":"npm run start -w server"},
+  "devDependencies":{"concurrently":"^9.1.2"}
+}
